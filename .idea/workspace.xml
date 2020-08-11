@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f48b2116-023f-472c-8036-f07fb40d22c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/iplearn/TestIp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ip/TestIp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/portlearn/TestPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/port/TestPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/url/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/url/UrlDownload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaWeb/com/ip/TestIp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWeb/com/ip/TestIp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaWeb/com/port/TestPort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWeb/com/port/TestPort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +26,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fr3FWFSwhKXvBdu2Q6kXCwmUde" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -35,13 +44,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
-  <component name="RunManager" selected="Application.Teacher">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udp.sc.Client" />
+  <component name="RunManager" selected="Application.UrlDownload">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.url.Demo" />
       <module name="JavaWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.udp.sc.*" />
+          <option name="PATTERN" value="com.url.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,19 +60,6 @@
     </configuration>
     <configuration name="Receiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udp.chat1.Receiver" />
-      <module name="JavaWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.udp.chat1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.udp.chat1.Sender" />
       <module name="JavaWeb" />
       <extension name="coverage">
         <pattern>
@@ -101,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UrlDownload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.url.UrlDownload" />
+      <module name="JavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.url.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UrlDownload" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Teacher" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.Receiver" />
-        <item itemvalue="Application.Sender" />
-        <item itemvalue="Application.Client (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -122,12 +131,26 @@
       <option name="presentableId" value="Default" />
       <updated>1596962280702</updated>
       <workItem from="1596962283923" duration="11011000" />
-      <workItem from="1597039988116" duration="17146000" />
+      <workItem from="1597039988116" duration="18043000" />
+      <workItem from="1597120079467" duration="1978000" />
     </task>
+    <task id="LOCAL-00001" summary="change fold name again">
+      <created>1597082897948</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597082897949</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="change fold name again" />
+    <option name="LAST_COMMIT_MESSAGE" value="change fold name again" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Project_Structure" timestamp="1596962305934">
@@ -138,22 +161,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1597080877433" />
-    <state width="1493" height="225" key="GridCell.Tab.0.bottom" timestamp="1597082334248">
+    <state x="372" y="6" key="CommitChangelistDialog2" timestamp="1597082895600">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597082334248" />
-    <state width="1493" height="225" key="GridCell.Tab.0.center" timestamp="1597082334247">
+    <state x="372" y="6" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1597082895600" />
+    <state width="1493" height="225" key="GridCell.Tab.0.bottom" timestamp="1597134453444">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597082334247" />
-    <state width="1493" height="225" key="GridCell.Tab.0.left" timestamp="1597082334247">
+    <state width="1493" height="225" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597134453444" />
+    <state width="1493" height="225" key="GridCell.Tab.0.center" timestamp="1597134453443">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597082334247" />
-    <state width="1493" height="225" key="GridCell.Tab.0.right" timestamp="1597082334247">
+    <state width="1493" height="225" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597134453443" />
+    <state width="1493" height="225" key="GridCell.Tab.0.left" timestamp="1597134453442">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597082334247" />
+    <state width="1493" height="225" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597134453442" />
+    <state width="1493" height="225" key="GridCell.Tab.0.right" timestamp="1597134453444">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="225" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597134453444" />
     <state x="138" y="0" key="SettingsEditor" timestamp="1596995539671">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -162,10 +189,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1596974105281" />
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1597039995357">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1597082915854">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1597039995357" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597082915854" />
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1597120095978">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1597120095978" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1596973791731">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
